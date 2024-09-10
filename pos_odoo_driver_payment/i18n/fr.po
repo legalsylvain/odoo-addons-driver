@@ -1,0 +1,96 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * pos_odoo_driver_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-10 22:50+0000\n"
+"PO-Revision-Date: 2024-09-10 22:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_odoo_driver_payment
+#: model:ir.model.fields,help:pos_odoo_driver_payment.field_pos_config__iface_payment_terminal
+#: model:ir.model.fields,help:pos_odoo_driver_payment.field_res_config_settings__pos_iface_payment_terminal
+msgid "A payment terminal is available on the Proxy"
+msgstr "Un terminal de paiement est disponible via le proxy"
+
+#. module: pos_odoo_driver_payment
+#. odoo-javascript
+#: code:addons/pos_odoo_driver_payment/static/src/js/PaymentScreen.esm.js:0
+#, python-format
+msgid "Communication failed"
+msgstr "Echec de la communication"
+
+#. module: pos_odoo_driver_payment
+#: model:ir.model,name:pos_odoo_driver_payment.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: pos_odoo_driver_payment
+#. odoo-javascript
+#: code:addons/pos_odoo_driver_payment/static/src/js/ProxyStatus.esm.js:0
+#, python-format
+msgid "EPT"
+msgstr "TPE"
+
+#. module: pos_odoo_driver_payment
+#. odoo-javascript
+#: code:addons/pos_odoo_driver_payment/static/src/js/ProxyStatus.esm.js:0
+#, python-format
+msgid "EPT Offline"
+msgstr "TPE hors ligne"
+
+#. module: pos_odoo_driver_payment
+#: model:ir.model.fields,field_description:pos_odoo_driver_payment.field_pos_payment_method__is_payment_terminal
+msgid "Is Payment Terminal"
+msgstr "Est un terminal de paiement"
+
+#. module: pos_odoo_driver_payment
+#: model:ir.model.fields,field_description:pos_odoo_driver_payment.field_pos_config__iface_payment_terminal
+#: model:ir.model.fields,field_description:pos_odoo_driver_payment.field_res_config_settings__pos_iface_payment_terminal
+#: model_terms:ir.ui.view,arch_db:pos_odoo_driver_payment.view_res_config_settings_form
+msgid "Payment Terminal"
+msgstr "Terminal de paiement"
+
+#. module: pos_odoo_driver_payment
+#: model:ir.model,name:pos_odoo_driver_payment.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuration du point de vente"
+
+#. module: pos_odoo_driver_payment
+#: model:ir.model,name:pos_odoo_driver_payment.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr "Modes de paiement du point de vente"
+
+#. module: pos_odoo_driver_payment
+#: model:ir.model,name:pos_odoo_driver_payment.model_pos_session
+msgid "Point of Sale Session"
+msgstr "Session du point de vente"
+
+#. module: pos_odoo_driver_payment
+#. odoo-javascript
+#: code:addons/pos_odoo_driver_payment/static/src/js/PaymentScreen.esm.js:0
+#, python-format
+msgid ""
+"Possible reasons: \n"
+"- the terminal payment is not connected\n"
+"- the device is busy for the time being (still processing a payment)."
+msgstr ""
+"Raisons possibles: \n"
+"- Le terminal de paiement n'est pas connecté\n"
+"- Le périphérique est occupé pour le moment (déjà en train de traiter un paiement)"
+
+#. module: pos_odoo_driver_payment
+#. odoo-javascript
+#: code:addons/pos_odoo_driver_payment/static/src/xml/PaymentScreenPaymentLines.xml:0
+#: code:addons/pos_odoo_driver_payment/static/src/xml/PaymentScreenPaymentLines.xml:0
+#, python-format
+msgid "Send to Payment Terminal"
+msgstr "Envoyer au terminal de paiement"
