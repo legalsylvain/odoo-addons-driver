@@ -4,7 +4,7 @@
 
 {
     "name": "Point of Sale - Telium Payment Terminal (odoo-pos-driver)",
-    "version": "16.0.1.0.0",
+    "version": "16.0.2.0.0",
     "category": "Point Of Sale",
     "summary": "Communicate with Telium Payment Terminal"
     " via odoo-pos-driver library",
