@@ -14,3 +14,8 @@ class PosSession(models.Model):
             config["is_posbox"] and config["iface_payment_terminal"]
         )
         return config
+
+    def _loader_params_pos_payment_method(self):
+        res = super()._loader_params_pos_payment_method()
+        res["search_params"]["fields"] += ["is_payment_terminal"]
+        return res

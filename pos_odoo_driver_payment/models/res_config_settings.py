@@ -9,5 +9,6 @@ class ResConfigSettings(models.TransientModel):
     _inherit = "res.config.settings"
 
     pos_iface_payment_terminal = fields.Boolean(
-        related="pos_config_id.iface_payment_terminal"
+        related="pos_config_id.iface_payment_terminal",
+        readonly=False,
     )

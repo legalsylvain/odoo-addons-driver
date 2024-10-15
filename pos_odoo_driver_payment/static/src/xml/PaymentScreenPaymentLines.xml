@@ -5,8 +5,7 @@
             t-inherit="point_of_sale.PaymentScreenPaymentLines"
             t-inherit-mode="extension" owl="1">
         <xpath expr="//div[hasclass('payment-name')]" position="after">
-            <!-- TODO: FIXME, hardcoded value -->
-            <t t-if="line.payment_method.name == 'CB'">
+            <t t-if="line.payment_method.is_payment_terminal">
                 <div class="send-payment-terminal-button"
                     t-on-click="() => this.trigger('send-payment-terminal', { cid: line.cid })"
                     aria-label="Send to Payment Terminal"
