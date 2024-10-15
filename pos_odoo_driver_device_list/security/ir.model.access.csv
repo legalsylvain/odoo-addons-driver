@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pos_device_user,access_pos_device_user,pos_odoo_driver_device_list.model_pos_device,point_of_sale.group_pos_user,1,1,1,0
+access_pos_device_manager,access_pos_device_manager,pos_odoo_driver_device_list.model_pos_device,base.group_system,1,1,1,1

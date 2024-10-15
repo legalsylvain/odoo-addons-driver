@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--
+    Copyright (C) 2024 - Today: GRAP (http://www.grap.coop)
+    @author: Sylvain LE GAL (https://twitter.com/legalsylvain)
+    License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+-->
+<odoo>
+
+    <record id="view_pos_device_tree" model="ir.ui.view">
+        <field name="model">pos.device</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="last_connexion_date"/>
+                <field name="name"/>
+                <field name="device_type"/>
+                <field name="vendor_product_code" optional="show"/>
+                <field name="serial_number" optional="show"/>
+                <field name="manufacturer" optional="hide"/>
+                <field name="product_name" optional="hide"/>
+                <field name="config_id" optional="show"/>
+                <field name="company_id" optional="hide" groups="base.group_multi_company"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_pos_device" model="ir.actions.act_window">
+        <field name="name">Pos Devices</field>
+        <field name="res_model">pos.device</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <record  id="menu_pos_device" model="ir.ui.menu">
+        <field name="name">PoS Devices</field>
+        <field name="sequence" eval="20" />
+        <field name="action" ref="action_pos_device" />
+        <field name="parent_id" ref="point_of_sale.menu_point_config_product" />
+    </record>
+
+</odoo>
