@@ -1,0 +1,7 @@
+div.send-payment-terminal-button {
+    font-size: x-large;
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}

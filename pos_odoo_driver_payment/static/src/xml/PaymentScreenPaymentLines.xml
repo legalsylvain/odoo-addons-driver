@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="pos_odoo_driver_payment.PaymentScreenPaymentLines"
+            t-inherit="point_of_sale.PaymentScreenPaymentLines"
+            t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('payment-name')]" position="after">
+            <t t-if="line.payment_method.is_payment_terminal">
+                <div class="send-payment-terminal-button"
+                    t-on-click="() => this.trigger('send-payment-terminal', { cid: line.cid })"
+                    aria-label="Send to Payment Terminal"
+                    title="Send to Payment Terminal">
+                    <i class="fa fa-credit-card" />
+                    <i class="fa fa-share-square" />
+                </div>
+            </t>
+        </xpath>
+    </t>
+
+</templates>
