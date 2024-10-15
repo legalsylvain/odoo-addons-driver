@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [pos_odoo_driver_device_list](pos_odoo_driver_device_list/) | 16.0.1.0.0 |  | Get devices information from odoo-pos-driver library
+[pos_odoo_driver_display](pos_odoo_driver_display/) | 16.0.1.0.0 |  | Communicate with LEC Customer Display via odoo-pos-driver library
 
 [//]: # (end addons)
 
