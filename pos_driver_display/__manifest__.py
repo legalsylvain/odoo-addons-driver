@@ -4,9 +4,9 @@
 
 {
     "name": "Point of Sale - LED Customer Display (odoo-pos-driver)",
-    "version": "16.0.2.0.0",
+    "version": "16.0.3.0.0",
     "category": "Point Of Sale",
-    "summary": "Communicate with LEC Customer Display via odoo-pos-driver library",
+    "summary": "Communicate with LED Customer Display via odoo-pos-driver library",
     "author": "GRAP",
     "website": "https://github.com/grap/odoo-addons-pos",
     "license": "AGPL-3",

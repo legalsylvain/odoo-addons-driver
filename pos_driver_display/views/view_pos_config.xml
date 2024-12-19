@@ -30,24 +30,12 @@
                     <div class="o_setting_right_pane">
                         <div class="content-group mt16">
                             <div class="row">
-                                <label for="pos_customer_display_format" />
-                                <field name="pos_customer_display_format" />
+                                <label for="pos_customer_display_message_next" />
+                                <field name="pos_customer_display_message_next" />
                             </div>
                             <div class="row">
-                                <label for="pos_customer_display_msg_next_l1" />
-                                <field name="pos_customer_display_msg_next_l1" />
-                            </div>
-                            <div class="row">
-                                <label for="pos_customer_display_msg_next_l2" />
-                                <field name="pos_customer_display_msg_next_l2" />
-                            </div>
-                            <div class="row">
-                                <label for="pos_customer_display_msg_closed_l1" />
-                                <field name="pos_customer_display_msg_closed_l1" />
-                            </div>
-                            <div class="row">
-                                <label for="pos_customer_display_msg_closed_l2" />
-                                <field name="pos_customer_display_msg_closed_l2" />
+                                <label for="pos_customer_display_message_closed" />
+                                <field name="pos_customer_display_message_closed" />
                             </div>
                         </div>
                     </div>

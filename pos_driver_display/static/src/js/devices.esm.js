@@ -7,17 +7,15 @@ odoo.define("pos_driver_display.devices", function (require) {
 
     ProxyDevice.include({
         customer_display_send_welcome_message() {
-            this._customer_display_send_text([
-                this.pos.config.customer_display_msg_next_l1,
-                this.pos.config.customer_display_msg_next_l2,
-            ]);
+            this._customer_display_send_text(
+                this.pos.config.customer_display_message_next
+            );
         },
 
         customer_display_send_close_message() {
-            this._customer_display_send_text([
-                this.pos.config.customer_display_msg_closed_l1,
-                this.pos.config.customer_display_msg_closed_l2,
-            ]);
+            this._customer_display_send_text(
+                this.pos.config.customer_display_message_closed
+            );
         },
 
         _customer_display_send_text: function (text_lines) {

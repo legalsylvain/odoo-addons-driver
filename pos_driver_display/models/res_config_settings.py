@@ -11,20 +11,9 @@ class ResConfigSettings(models.TransientModel):
     pos_iface_customer_display = fields.Boolean(
         related="pos_config_id.iface_customer_display", readonly=False
     )
-    pos_customer_display_format = fields.Selection(
-        related="pos_config_id.customer_display_format",
-        readonly=False,
-        required=True,
+    pos_customer_display_message_next = fields.Text(
+        related="pos_config_id.customer_display_message_next", readonly=False
     )
-    pos_customer_display_msg_next_l1 = fields.Char(
-        related="pos_config_id.customer_display_msg_next_l1", readonly=False
-    )
-    pos_customer_display_msg_next_l2 = fields.Char(
-        related="pos_config_id.customer_display_msg_next_l2", readonly=False
-    )
-    pos_customer_display_msg_closed_l1 = fields.Char(
-        related="pos_config_id.customer_display_msg_closed_l1", readonly=False
-    )
-    pos_customer_display_msg_closed_l2 = fields.Char(
-        related="pos_config_id.customer_display_msg_closed_l2", readonly=False
+    pos_customer_display_message_closed = fields.Text(
+        related="pos_config_id.customer_display_message_closed", readonly=False
     )
