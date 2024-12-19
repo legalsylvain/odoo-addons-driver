@@ -1,5 +1,5 @@
 ==============================================
-Point of Sale - Devices List (odoo-pos-driver)
+Point of Sale - Devices List (odoo-driver)
 ==============================================
 
 .. 
@@ -23,7 +23,7 @@ Point of Sale - Devices List (odoo-pos-driver)
 |badge1| |badge2| |badge3|
 
 This module extends the Point of Sale odoo module, to add compatibility
-with the ``odoo-pos-driver`` python library.
+with the ``odoo-driver`` python library.
 
 It will store connected devices information in Odoo for analysis.
 

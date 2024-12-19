@@ -3,10 +3,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    "name": "Point of Sale - LED Customer Display (odoo-pos-driver)",
+    "name": "Point of Sale - LED Customer Display (odoo-driver)",
     "version": "16.0.3.0.0",
     "category": "Point Of Sale",
-    "summary": "Communicate with LED Customer Display via odoo-pos-driver library",
+    "summary": "Communicate with LED Customer Display via odoo-driver library",
     "author": "GRAP",
     "website": "https://github.com/grap/odoo-addons-pos",
     "license": "AGPL-3",

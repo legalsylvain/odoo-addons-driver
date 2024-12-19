@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-10 11:21+0000\n"
-"PO-Revision-Date: 2024-09-10 11:21+0000\n"
+"POT-Creation-Date: 2024-12-19 16:14+0000\n"
+"PO-Revision-Date: 2024-12-19 16:14+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,20 +16,15 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: pos_driver_display
-#: model:ir.model.fields.selection,name:pos_driver_display.selection__pos_config__customer_display_format__2_20
-msgid "2 Lines of 20 Characters"
-msgstr "2 lignes de 20 caractères"
+#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_message_closed
+#: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_customer_display_message_closed
+msgid "Close Message"
+msgstr "Message de fermeture"
 
 #. module: pos_driver_display
 #: model:ir.model,name:pos_driver_display.model_res_config_settings
 msgid "Config Settings"
 msgstr "Paramètres de configuration"
-
-#. module: pos_driver_display
-#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_format
-#: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_customer_display_format
-msgid "Customer Display Format"
-msgstr "Format de l'afficheur client"
 
 #. module: pos_driver_display
 #. odoo-javascript
@@ -52,26 +47,6 @@ msgid "Display data on the customer display"
 msgstr "Afficher les données sur l'afficheur client"
 
 #. module: pos_driver_display
-#: model:ir.model.fields,help:pos_driver_display.field_pos_config__customer_display_msg_next_l1
-#: model:ir.model.fields,help:pos_driver_display.field_res_config_settings__pos_customer_display_msg_next_l1
-msgid ""
-"First line of the message on the customer display which is displayed after "
-"starting POS and also after validation of an order"
-msgstr ""
-"Première ligne du message de l'afficheur client qui est affiché après le "
-"démarrage de la caisse et également après validation d'une commande client"
-
-#. module: pos_driver_display
-#: model:ir.model.fields,help:pos_driver_display.field_pos_config__customer_display_msg_closed_l1
-#: model:ir.model.fields,help:pos_driver_display.field_res_config_settings__pos_customer_display_msg_closed_l1
-msgid ""
-"First line of the message on the customer display which is displayed when "
-"POS is closed"
-msgstr ""
-"Première ligne du message de l'afficheur client qui est affiché quand la "
-"caisse est fermée"
-
-#. module: pos_driver_display
 #: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__iface_customer_display
 #: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_iface_customer_display
 #: model_terms:ir.ui.view,arch_db:pos_driver_display.view_res_config_settings_form
@@ -79,45 +54,40 @@ msgid "LED Customer Display"
 msgstr "Afficheur client LED"
 
 #. module: pos_driver_display
-#: model:ir.model.fields,help:pos_driver_display.field_pos_config__customer_display_line_length
-msgid "Length of the LEDs lines of the customer display"
-msgstr "Longueur des lignes de l'afficheur client (nombre de caractères)"
+#: model:ir.model.fields,help:pos_driver_display.field_pos_config__customer_display_message_next
+#: model:ir.model.fields,help:pos_driver_display.field_res_config_settings__pos_customer_display_message_next
+msgid ""
+"Message on the customer display which is displayed after starting POS and "
+"also after validation of an order"
+msgstr ""
+"Message de l'afficheur client qui est affiché après le "
+"démarrage de la caisse et également après validation d'une commande client"
+
 
 #. module: pos_driver_display
-#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_line_length
-msgid "Line Length"
-msgstr "Longueur des lignes"
+#: model:ir.model.fields,help:pos_driver_display.field_pos_config__customer_display_message_closed
+#: model:ir.model.fields,help:pos_driver_display.field_res_config_settings__pos_customer_display_message_closed
+msgid "Message on the customer display which is displayed when POS is closed"
+msgstr ""
+"Message de l'afficheur client qui est affiché quand la "
+"caisse est fermée"
 
 #. module: pos_driver_display
-#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_msg_next_l1
-#: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_customer_display_msg_next_l1
-msgid "Next Customer (Line 1)"
-msgstr "Client suivant (ligne 1)"
-
-#. module: pos_driver_display
-#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_msg_next_l2
-#: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_customer_display_msg_next_l2
-msgid "Next Customer (Line 2)"
-msgstr "Client suivant (ligne 2)"
-
-#. module: pos_driver_display
-#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_msg_closed_l1
-#: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_customer_display_msg_closed_l1
-msgid "PoS Closed (Line 1)"
-msgstr "Caisse fermée (Ligne 1)"
-
-#. module: pos_driver_display
-#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_msg_closed_l2
-#: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_customer_display_msg_closed_l2
-msgid "PoS Closed (Line 2)"
-msgstr "Caisse fermée (Ligne 2)"
+#: model:ir.model.fields,field_description:pos_driver_display.field_pos_config__customer_display_message_next
+#: model:ir.model.fields,field_description:pos_driver_display.field_res_config_settings__pos_customer_display_message_next
+msgid "Next Customer Message"
+msgstr "Message Prochain client"
 
 #. module: pos_driver_display
 #. odoo-python
 #: code:addons/pos_driver_display/models/pos_config.py:0
 #, python-format
-msgid "Point of Sale Closed"
-msgstr "Caisse fermée"
+msgid ""
+"Point of Sale Closed\n"
+"See you soon!"
+msgstr ""
+"Point de vente fermé\n"
+"A bientôt!"
 
 #. module: pos_driver_display
 #: model:ir.model,name:pos_driver_display.model_pos_config
@@ -128,55 +98,14 @@ msgstr "Configuration du point de vente"
 #. odoo-python
 #: code:addons/pos_driver_display/models/pos_config.py:0
 #, python-format
-msgid "Point of Sale Open"
-msgstr "Caisse ouverte"
+msgid ""
+"Point of Sale Open\n"
+"Welcome!"
+msgstr ""
+"Point de vente ouvert\n"
+"Bienvenue!"
 
 #. module: pos_driver_display
 #: model:ir.model,name:pos_driver_display.model_pos_session
 msgid "Point of Sale Session"
 msgstr "Session du point de vente"
-
-#. module: pos_driver_display
-#: model:ir.model.fields,help:pos_driver_display.field_pos_config__customer_display_msg_next_l2
-#: model:ir.model.fields,help:pos_driver_display.field_res_config_settings__pos_customer_display_msg_next_l2
-msgid ""
-"Second line of the message on the customer display which is displayed after "
-"starting POS and also after validation of an order"
-msgstr ""
-"Deuxième ligne du message de l'afficheur client qui est affiché après le "
-"démarrage de la caisse et également après validation d'une commande client"
-
-#. module: pos_driver_display
-#: model:ir.model.fields,help:pos_driver_display.field_pos_config__customer_display_msg_closed_l2
-#: model:ir.model.fields,help:pos_driver_display.field_res_config_settings__pos_customer_display_msg_closed_l2
-msgid ""
-"Second line of the message on the customer display which is displayed when "
-"POS is closed"
-msgstr ""
-"Deuxième ligne du message de l'afficheur client qui est affiché quand la "
-"caisse est fermée"
-
-#. module: pos_driver_display
-#. odoo-python
-#: code:addons/pos_driver_display/models/pos_config.py:0
-#, python-format
-msgid "See you soon!"
-msgstr "Au revoir !"
-
-#. module: pos_driver_display
-#. odoo-python
-#: code:addons/pos_driver_display/models/pos_config.py:0
-#, python-format
-msgid ""
-"The message for customer display '%(field_name)s' is too long: it has "
-"%(current_size)d chars whereas the maximum is %(maxsize)d chars."
-msgstr ""
-"Le message de l'afficheur client '%(field_name)s' est trop long : il contient %(current_size)d "
-"caractères alors que le maximum est de %(maxsize)d caractères."
-
-#. module: pos_driver_display
-#. odoo-python
-#: code:addons/pos_driver_display/models/pos_config.py:0
-#, python-format
-msgid "Welcome!"
-msgstr "Bienvenue !"

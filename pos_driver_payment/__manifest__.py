@@ -3,11 +3,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    "name": "Point of Sale - Telium Payment Terminal (odoo-pos-driver)",
+    "name": "Point of Sale - Telium Payment Terminal (odoo-driver)",
     "version": "16.0.2.0.0",
     "category": "Point Of Sale",
-    "summary": "Communicate with Telium Payment Terminal"
-    " via odoo-pos-driver library",
+    "summary": "Communicate with Telium Payment Terminal" " via odoo-driver library",
     "author": (
         "Aurélien DUMAINE,"
         "GRAP,"

@@ -3,10 +3,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    "name": "Point of Sale - Devices List (odoo-pos-driver)",
+    "name": "Point of Sale - Devices List (odoo-driver)",
     "version": "16.0.2.0.0",
     "category": "Point Of Sale",
-    "summary": "Get devices information from odoo-pos-driver library",
+    "summary": "Get devices information from odoo-driver library",
     "author": "GRAP",
     "website": "https://github.com/grap/odoo-addons-pos",
     "license": "AGPL-3",

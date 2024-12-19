@@ -21,9 +21,9 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[pos_driver_device_list](pos_driver_device_list/) | 16.0.2.0.0 |  | Get devices information from odoo-pos-driver library
-[pos_driver_display](pos_driver_display/) | 16.0.2.0.0 |  | Communicate with LEC Customer Display via odoo-pos-driver library
-[pos_driver_payment](pos_driver_payment/) | 16.0.2.0.0 |  | Communicate with Telium Payment Terminal via odoo-pos-driver library
+[pos_driver_device_list](pos_driver_device_list/) | 16.0.2.0.0 |  | Get devices information from odoo-driver library
+[pos_driver_display](pos_driver_display/) | 16.0.2.0.0 |  | Communicate with LEC Customer Display via odoo-driver library
+[pos_driver_payment](pos_driver_payment/) | 16.0.2.0.0 |  | Communicate with Telium Payment Terminal via odoo-driver library
 
 [//]: # (end addons)
 

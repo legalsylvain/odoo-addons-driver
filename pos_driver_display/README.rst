@@ -1,5 +1,5 @@
 ======================================================
-Point of Sale - LED Customer Display (odoo-pos-driver)
+Point of Sale - LED Customer Display (odoo-driver)
 ======================================================
 
 .. 
@@ -22,10 +22,10 @@ Point of Sale - LED Customer Display (odoo-pos-driver)
 
 |badge1| |badge2| |badge3|
 
-This module extends the Point of Sale odoo module, to add compatibility with the ``odoo-pos-driver``
+This module extends the Point of Sale odoo module, to add compatibility with the ``odoo-driver``
 python library, when using LED Customer display.
 
-More information: https://pypi.org/project/odoo-pos-driver/
+More information: https://pypi.org/project/odoo-driver/
 
 **Table of contents**
 
